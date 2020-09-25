@@ -1,0 +1,64 @@
+.wrapper {
+    height: 100vh;
+}
+
+
+.leftSide {
+    background-image: url(../../assets/artboard.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.textBlock {
+    margin-top: 30%;
+    margin-left: 42%;
+    width: 50%;
+    text-align: right;
+}
+
+.textBlock h1 {
+    color: #FDD000;
+    text-transform: uppercase;
+    font-size: 50px;
+}
+
+.textBlock p {
+    color: #DFDFDF;
+    font-size: 30px;
+    letter-spacing: 0.6px;
+}
+
+.rightSide {
+    background-color: #272829;
+    height: 100%;
+}
+
+.calendar {
+    padding-top: 45%;
+}
+
+@media (max-width: 1280px) {
+    .calendar {
+        padding-top: 10%;
+        padding-bottom: 10%;
+    }
+}
+
+@media (max-width: 900px) {
+
+    .textBlock {
+        text-align: center;
+        margin: 200px auto 50px;
+    }
+
+    .textBlock h1 {
+        font-size: 30px;
+    }
+    .textBlock p {
+        font-size: 22px;
+    }
+
+}

@@ -1,0 +1,50 @@
+.modal {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    outline: none;
+}
+
+.container {
+    background-color: white;
+    outline: none;
+    position: relative;
+    padding: 15px 15px 25px;
+}
+
+.modal input {
+    padding: 10px;
+    outline:none;
+    border: #FDD000 2px solid;
+    font-size: 22px;
+    font-weight: bold;
+    width: 80%;
+    margin-left: 15px;
+
+}
+
+.modal p {
+    margin-left: 15px;
+    margin-bottom: 5px;
+    margin-top: 0;
+    font-size: 20px;
+    color: #A2A2A2;
+}
+
+.icon {
+    position: absolute !important;
+    background-color: #FDD000 !important;
+    border-radius: 0 !important;
+    padding: 0 !important;
+    right: 0;
+    top: 0;
+}
+
+@media (max-width: 600px) {
+    .modal input {
+        font-size: 18px;
+    }
+    .modal p {
+        font-size: 14px;
+    }
+}

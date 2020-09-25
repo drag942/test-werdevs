@@ -1,0 +1,33 @@
+.wrapper {
+    padding-top: 150px;
+    padding-bottom: 100px;
+}
+
+.wrapper h2 {
+    font-size: 34px;
+}
+
+.wrapper p {
+    font-size: 20px;
+    color: #3D3D3D;
+    letter-spacing: 0.4px;
+    font-weight: 300;
+    line-height: 34px;
+}
+
+@media (max-width: 600px) {
+    .wrapper {
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+
+    .wrapper h2 {
+        font-size: 26px;
+    }
+
+    .wrapper p {
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+}
