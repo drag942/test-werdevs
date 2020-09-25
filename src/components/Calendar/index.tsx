@@ -93,8 +93,8 @@ export const Calendar:React.FC<CalendarProps> = ({monthNames}) => {
                     </tbody>
                 </table>
                 <footer className={styles.weekdays}>
-                    {weekDayNames.map((name:any) =>
-                        <span key={name}>{name}</span>
+                    {weekDayNames.map((name:any, index) =>
+                        <span key={index}>{name}</span>
                     )}
                 </footer>
             </div>

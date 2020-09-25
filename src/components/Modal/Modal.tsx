@@ -6,7 +6,7 @@ import {setShowModal} from '../../redux/homePageReducer'
 import {getIsShowModal, getSelectedDate} from "../../redux/homePageSelectors";
 
 import CloseIcon from '@material-ui/icons/Close';
-import {IconButton, Slide, TextField, Modal, Grid} from "@material-ui/core";
+import {IconButton, Modal, Grid} from "@material-ui/core";
 
 
 const dayNames = ['Sunday','Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday']

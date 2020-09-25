@@ -10,10 +10,10 @@ const Header = ():React.ReactElement => {
     return (
         <header className={styles.header}>
             <Grid container>
-                <Grid xs={6}>
+                <Grid item xs={6}>
                     <img alt={'logo'} className={styles.logo} src={logo}/>
                 </Grid>
-                <Grid xs={6}>
+                <Grid item xs={6}>
                     <Hidden smDown>
                         <nav className={styles.menu}>
                             <li className={styles.menuItem}>
