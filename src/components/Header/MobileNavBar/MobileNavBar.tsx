@@ -5,7 +5,7 @@ import logo from '../../../assets/logo.svg'
 import styles from './MobileNavBar.module.css'
 
 import MenuIcon from '@material-ui/icons/Menu';
-import {Link , Divider, ListItem, List, IconButton, SwipeableDrawer} from "@material-ui/core";
+import {Divider, ListItem, List, IconButton, SwipeableDrawer} from "@material-ui/core";
 import {NavLink} from "react-router-dom";
 
 
