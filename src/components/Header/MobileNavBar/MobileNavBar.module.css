@@ -5,3 +5,12 @@
 .logo {
     width: 120px;
 }
+
+.link {
+    color: #272829;
+    text-decoration: none;
+}
+
+.active {
+    color: #fdd000;
+}
